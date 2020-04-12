@@ -98,9 +98,9 @@ static void refreshPrefs() {
 	if (!settings) {
 		settings = [[NSMutableDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.alexpng.cacheclearerx.plist"];
 	}
-	useShortcut = [([settings objectForKey:@"useShortcut"] ?: @(NO)) boolValue];
-	useHaptic = [([settings objectForKey:@"useHaptic"] ?: @(NO)) boolValue];
-	useShortcutAlert = [([settings objectForKey:@"useShortcutAlert"] ?: @(NO)) boolValue];
+	useShortcut = [([settings objectForKey:@"useShortcut"] ?: @(YES)) boolValue];
+	useHaptic = [([settings objectForKey:@"useHaptic"] ?: @(YES)) boolValue];
+	useShortcutAlert = [([settings objectForKey:@"useShortcutAlert"] ?: @(YES)) boolValue];
 	}
 static void PreferencesChangedCallback(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo) {
   refreshPrefs();
@@ -268,9 +268,10 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 });
 
 		return;
-		%orig;
    }
-}
+		%orig;
+ }
+
 
 %end
 
