@@ -1,4 +1,3 @@
-[![GitHub forks](https://img.shields.io/github/license/alexPNG/CacheClearerX.svg?style=for-the-badge)](https://github.com/alexPNG/CacheClearerX/license)
 # CacheClearerX
 Clear application's cache from the storage settings or by 3D-Touching/Force Touching an application's icon in SpringBoard.
 By alex_png and originally created by Ryan Petrich and modified by julioverne
@@ -10,6 +9,7 @@ Original project by Ryan Petrich:
 [https://github.com/rpetrich/CacheClearer](https://github.com/rpetrich/CacheClearer)
 
 ## What's different in my fork?
+(Only supports iOS versions greater than iOS 13.0)
 
 **v1.0:**
 - Added support for arm64e devices;
