@@ -1,4 +1,3 @@
-[![GitHub forks](https://img.shields.io/github/license/alexPNG/CacheClearerX.svg?style=for-the-badge)](https://github.com/alexPNG/CacheClearerX/blob/master/LICENSE)
 # CacheClearerX
 Clear application's cache from the storage settings or by 3D-Touching/Force Touching an application's icon in SpringBoard.
 By alex_png and originally created by Ryan Petrich and modified by julioverne
