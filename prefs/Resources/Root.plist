@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>CacheClearerX by alex_png - originally CacheClearer by RPetrich and julioverne</string>
+		</dict>
+		<dict>
+			<key>alignment</key>
+			<string>0</string>
+			<key>background</key>
+			<string>#EFEFF4</string>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>PFHeaderCell</string>
+			<key>height</key>
+			<integer>165</integer>
+			<key>icon</key>
+			<string>banner.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable or disable the 3D Touch/Force Touch Clear Cache Shortcut.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.cacheclearerx.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alexpng.cacheclearerx</string>
+			<key>key</key>
+			<string>useShortcut</string>
+			<key>label</key>
+			<string>3D Touch/Force Touch Shortcut</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable or disable Haptic Feedback for the 3D Touch/Force Touch Shortcut.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.cacheclearerx.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alexpng.cacheclearerx</string>
+			<key>key</key>
+			<string>useHaptic</string>
+			<key>label</key>
+			<string>Shortcut Haptic Feedback</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable or disable completion Alert for the 3D Touch/Force Touch Shortcut.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.alexpng.cacheclearerx.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alexpng.cacheclearerx</string>
+			<key>key</key>
+			<string>useShortcutAlert</string>
+			<key>label</key>
+			<string>Shortcut Alert</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Feel free to contact me in case of any bugs or issues.</string>
+			<key>label</key>
+			<string>Contact Me:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>@its_alex_png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Reddit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+			<key>label</key>
+			<string>/u/alex_png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>GitHub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>github.com/alexPNG</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Email</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>email.png</string>
+			<key>label</key>
+			<string>alex.png.cc@gmail.com</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Support me and my work in case you appreciate it and would like to support me.</string>
+			<key>label</key>
+			<string>Support My Work:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>PayPal</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>label</key>
+			<string>paypal.me/devalexpng</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Check out my other tweaks, they’re all available in my repository.</string>
+			<key>label</key>
+			<string>Tweak Repository:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Repository</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>repo.png</string>
+			<key>label</key>
+			<string>https://alexpng.github.io</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>CacheClearerX by alex_png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CacheClearerX</string>
+</dict>
+</plist>

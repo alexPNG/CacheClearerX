@@ -1,0 +1,12 @@
+Package: com.alexpng.cacheclearerx
+Name: CacheClearerX
+Depends: mobilesubstrate, firmware (>= 13.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Clear applications cache from the storage settings or from the 3D Touch/Force Touch Shortcut.
+Maintainer: alex_png <alex.png.cc@gmail.com>
+Author: alex_png <alex.png.cc@gmail.com>
+Section: Tweaks
+Depiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/
+Icon: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
+SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
